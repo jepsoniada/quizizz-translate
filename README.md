@@ -16,6 +16,3 @@ before use:
   $ node serverside.js
   ```
   5: last thing to do is open any quiz and in debug console (F12 / ctrl+shift+i) drop "generate translate button.js" file
-### problems with translation
-This script uses google translate for transaltion so some of texts may seems weird; if you want to see original texts they will be shown by hover on any of tranaslated text
-If your quiz isn't translated in few secouds after clicking translate button it can be caused by older quiz layout, that means texts will stay same as before translation and hover on them wont work; but any translated texts are logged in console so you can use thoes
