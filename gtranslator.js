@@ -25,7 +25,7 @@ module.exports = async function gt (content = {answers: ['0'], q: '0'}) {
                     inElem.clear()
                     inElem.sendKeys(comps[x].original)
                     const translationBy = By.css(`.tlid-translation`)
-                    const translationElem = await operationCenter.wait(until.elementLocated(translationBy), 8000);
+                    const translationElem = await operationCenter.wait(until.elementLocated(translationBy), 15000);
                     comps[x].translated = await translationElem.getText()
                     await operationCenter.findElement(By.css('.tlid-clear-source-text')).click()
                 }
