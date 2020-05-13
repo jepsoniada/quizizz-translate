@@ -6,12 +6,12 @@ before use:
 ### seting up: 
   1. download and unpack zip
   2. move chromedriver to quizizz-translate folder
-  3. open cmd, go to location of unpacked files and type:
+  3. open cmd, go to location of unpacked files and enter:
   ```bash
   $ npm install
   ```
   ##### runing:
-  4. in same location type:
+  4. in same location enter:
   ```bash
   $ node serverside.js
   ```
