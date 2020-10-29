@@ -1,8 +1,10 @@
 # quizizz-translate
 translates questions and answears on quizizz for more accessibility (works only in chrome)
 
-before use: 
-  you will need [node.js](https://nodejs.org/en/download/) and [chromedriver](https://chromedriver.chromium.org/downloads)
+### before use: 
+  you will need:
+  * [node.js](https://nodejs.org/en/download/)
+  * [chromedriver](https://chromedriver.chromium.org/downloads)
 ### seting up: 
   1. download and unpack zip
   2. move chromedriver to quizizz-translate folder
