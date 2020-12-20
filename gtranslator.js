@@ -21,13 +21,13 @@ module.exports = async function gt (content = {answers: ['0'], q: '0'}) {
                     comps[x].translated = comps[x-ac].translated
                     ac = 1
                 } else {
-                    const inElem = await operationCenter.findElement(By.css('.tlid-source-text-input'))
+                    const inElem = await operationCenter.findElement(By.css('.QFw9Te textarea'))
                     inElem.clear()
                     inElem.sendKeys(comps[x].original)
-                    const translationBy = By.css(`.tlid-translation`)
+                    const translationBy = By.css(`.VIiyi span span`)
                     const translationElem = await operationCenter.wait(until.elementLocated(translationBy), 15000);
                     comps[x].translated = await translationElem.getText()
-                    await operationCenter.findElement(By.css('.tlid-clear-source-text')).click()
+                    await operationCenter.findElement(By.css('.VfPpkd-Bz112c-LgbsSe.yHy1rc.eT1oJ.q7sDqe.GA2I6e')).click()
                 }
             } else {
                 comps[x].translated = `*image*`
